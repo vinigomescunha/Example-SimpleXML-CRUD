@@ -1,17 +1,19 @@
 <?php
-/*author: Vinicius Gomes
-email:vinigomescunha at gmail.com*/
+/*
+author: Vinicius Gomes
+email:vinigomescunha at gmail.com
+*/
 Class XMLData {
 
 	private $file = "../data/data.xml";/* filename required*/
 	public $xml; /* xml data will be inserted */
-	public $status = false; /* status of excution */
-	public $fields; /* POST fields to manupulation */
+	public $status = false; /* status of execution */
+	public $fields; /* POST fields to manipulation */
 	public $offset = 0;
 	public $limit = 4;
 
 	public function __construct() {
-		/* in the construct put POST data in the field tomanipulation */
+		/* in the construct put POST data in the field to manipulation */
 		$this->fields = filter_input(INPUT_POST, 'fields', FILTER_DEFAULT,FILTER_REQUIRE_ARRAY);
 	}
 

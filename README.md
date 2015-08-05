@@ -1,7 +1,7 @@
 # Example-SimpleXML-CRUD
 ==Example SimpleXML CRUD - Vinicius Gomes
 
-Example of data manipulation with PHP ans SimpleXML, node creation, node update, list data and search function
+Example of data manipulation with PHP and SimpleXML, node creation, node update, list data and search function
 
 This is a example of XML manipulation using SimpleXML PHP
 

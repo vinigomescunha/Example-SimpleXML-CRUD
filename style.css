@@ -1,0 +1,31 @@
+body{background:#FFFFFF;color:#555555;margin:0px;}
+a{color:#fff;text-decoration:none;font-size:small;}
+input{font-size:16px;padding:7px;width:250px;background:#FFFFFF;margin:2px;}
+header{position:relative;width:auto;max-width:1000px;margin:0 auto 20px auto;}
+header h1{margin:15px 0 0 0;font-size:30px;color:#FFF;font-family:Verdana;padding-top:15px;}
+section.content{width:auto;max-width:1000px;margin:100px auto 0px auto;padding:10px 0 0 0;min-height:250px;}
+.button{padding:7px 14px;border:1px solid #FFFFFF;width:auto;cursor:pointer;background:none #FFFFFF;}
+.top{position:fixed;left:0px;height:100px;width:100%;top:0px;background-color:#18490B;color:#fff;font-size:18px;z-index:9999;}
+.top .search{margin-top:15px;width:auto;position:absolute;right:50%;}
+footer{position:relative;clear:both;width:auto;height:250px;background:#000000;}
+footer section.content{line-height:25px;margin:0 auto;padding-top:30px;width:auto;max-width:1000px;color:#FFFFFF;text-align:center;}
+footer section li{display:inline-block;padding:2px;}
+footer section li a{font-size:20px;border:1px solid #fff;padding:2px 14px;margin:2px;}
+.createform,.updateform {visibility:hidden;position:absolute;left:0px;top:30px;width:100%;height:100%;text-align:center;z-index:1000;}
+.createform .content, .updateform .content {width:300px;margin:100px auto;background-color:#fff;border:1px solid #000;padding:15px;text-align:center;}
+.rem{float:right;background-color:#333;color:#fff;padding:0px 5px;}
+.rem:before {content:'x';color:#fff;font-family:Arial;}
+.toggleCreate,.toggleUpdate{cursor:pointer;}
+.clear{clear:both;}
+.sendButton{border:1px solid #000;padding:9px 40px;font-size:14px;background-color:#000;color:#FFFFFF;margin:4px;cursor:pointer;}
+.alert{margin-top:20px;font-size:24px;color:#FFFFFF;float:right;}
+.row{clear:both;border:1px solid #bbb;min-width:100%;}
+.cell{float:left;display:table-cell;padding:2px;max-width:270px;width:100%;}
+.cell a{color:#000000;}
+.control{max-width:100px;}
+.control a{padding:5px;}
+.pagination {display:table;margin:20px auto;clear:both;}
+.pagination > li {display:inline;}
+.pagination > li > a{position:relative;text-decoration:none;float:left;padding:6px 12px;line-height:1.5;color:#000000;background-color:#fff;border:1px solid #ddd;}
+.pagination > li > a:hover,
+.pagination > li > a:focus{z-index:3;color:#23527c;background-color:#eee;border-color:#ddd;}
